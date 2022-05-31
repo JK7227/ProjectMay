@@ -68,6 +68,9 @@ public class AdactinHotel extends BaseClass {
 	@Then("Check whether it directs us to the select hotel page.")
 	public void check_whether_it_directs_us_to_the_select_hotel_page() {
 		Assert.assertTrue("Hotel Selection", getCurrentUrl().contains("SelectHotel"));
+		System.out.println("Have to validate two more modules");
 	}
+
+	
 
 }
