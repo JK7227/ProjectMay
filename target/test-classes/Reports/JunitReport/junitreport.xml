@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="179.23125">
+<testcase classname="To verify and validate the funtionalities of adactin hotel." name="To check the login page functionalities with valid datas." time="45.704133">
+<system-out><![CDATA[Given The user should be in the adactin hotel home page.....................passed
+When To fill the "Jothikrishna" and "Life@heaven" with valid credentials....passed
+And Click the login button..................................................passed
+Then Check whether it directs us to the valid page or not...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify and validate the funtionalities of adactin hotel." name="To check the login page functionalities with valid datas. 2" time="36.040309">
+<system-out><![CDATA[Given The user should be in the adactin hotel home page.....................passed
+When To fill the "JKrish98" and "Life@heaven" with valid credentials........passed
+And Click the login button..................................................passed
+Then Check whether it directs us to the valid page or not...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify and validate the funtionalities of adactin hotel." name="To check the login page functionalities with Invalid datas." time="28.98727">
+<system-out><![CDATA[Given The user should be in the adactin hotel home page.....................passed
+When To fill the "Jothikrishna" and "Life@heaven1998" with invalid credentials..passed
+And Click the login button..................................................passed
+Then Check whether it directs us to the invalid page or not.................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify and validate the funtionalities of adactin hotel." name="To check the login page functionalities with Invalid datas. 2" time="28.678989">
+<system-out><![CDATA[Given The user should be in the adactin hotel home page.....................passed
+When To fill the "JKrish98" and "Life@h" with invalid credentials...........passed
+And Click the login button..................................................passed
+Then Check whether it directs us to the invalid page or not.................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify and validate the funtionalities of adactin hotel." name="To check the search hotel page functionalities." time="39.820549">
+<system-out><![CDATA[Given The user should be in the adactin hotel home page.....................passed
+When To fill the "Jothikrishna" and "Life@heaven" with valid credentials....passed
+And Click the login button..................................................passed
+And The user have to select options for location, hotel, room type, No. of room..passed
+And The user have to fill the datein and dateout option.....................passed
+And The user have to select options for adult per person and children per person option and give search..passed
+Then Check whether it directs us to the select hotel page...................passed
+]]></system-out>
+</testcase>
+</testsuite>
